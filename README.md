@@ -20,12 +20,13 @@ Before installing **ImageGear Java PDF**, make sure your computer meets the foll
 4. Extract the installation file contents, which is typically done by running: ```tar zxvf ImageGearJavaPDF_1.0_Linux64.tar.gz```
 5. In the **$HOME/Accusoft/ImageGearJavaPDF1-64** folder after extracting, locate the **install.sh** script and run it as root user: ```sudo ./install.sh```
 6. The script will search for and modify the current user's shell profile files to add some environment variables and attempt to run the Accusoft License Manager
+7. Finally, log out and log in again to activate the environment variables
 
 ## WHERE TO START | SAMPLES AND USER'S GUIDE
  
 A good place to start is running one of our samples:
  
-1. Open the Samples directory by running: **cd $HOME/Accusoft/ImageGearJavaPDF1-64/samples/**. All samples are located in this directory. We also include sample files you can use to test located in the sub-folder **SampleData**
+1. Open the **Samples** directory by running: ```cd $HOME/Accusoft/ImageGearJavaPDF1-64/samples/```. All samples are located in this directory. We also include sample files you can use to test located in the sub-folder **SampleData**
 2. Move to the directory for the **OpenSaveSample** by running: ```cd OpenSaveSample```
 3. Let's compile the sample using Maven. Run: ```mvn package```
 4. You can now run the sample using: ```java -jar ./target/OpenSaveSample-1.0.jar "../SampleData/Pdf/single-page.pdf" "single-page-output.pdf" TRUE```

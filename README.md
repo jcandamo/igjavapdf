@@ -30,7 +30,7 @@ A good place to start is running one of our samples:
 2. Move to the directory for the **OpenSaveSample** by running: ```cd OpenSaveSample```
 3. Let's compile the sample using Maven. Run: ```mvn package```
 4. You can now run the sample using: ```java -jar ./target/OpenSaveSample-1.0.jar "../SampleData/Pdf/single-page.pdf" "single-page-output.pdf" TRUE```
-5. Just just opened one of our sample PDF files and saved as a new PDF under the current folder (the last argument specifies that the PDF will be **LINEARIZED**)
+5. You just opened one of our sample PDF files and saved as a new PDF under the current folder (the last argument specifies that the PDF will be **LINEARIZED**)
 6. For each sample you can also specify the ```-h``` command-line option, which will display an explanation of the different options available and how to use the sample
  
 More samples are available in our **Samples** folder. Next, we recommend using our User's Guide. We have a **Getting Started** section that also includes a tutorial to create your first project using IG JAVA PDF. Find the User's Guide by running: ```cd $HOME/Accusoft/ImageGearJavaPDF1-64/help/```

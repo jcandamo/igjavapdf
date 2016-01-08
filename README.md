@@ -7,7 +7,7 @@ Before installing **ImageGear Java PDF**, make sure your computer meets the foll
   * 64-bit Intel-based Linux platform
   * Java Development Kit (JDK) 8 or greater
   * Maven 3 or greater
-  * Standard C Cibrary (libc) 2.14 or greater
+  * Standard C Library (libc) 2.14 or greater
  
 ## HOW TO INSTALL
 

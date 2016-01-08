@@ -18,7 +18,7 @@ Before installing **ImageGear Java PDF**, make sure your computer meets the foll
 2. Download the installation file **ImageGearJavaPDF_1.0_Linux64.tar.gz**
 3. Move the installation file **ImageGearJavaPDF_1.0_Linux64.tar.gz** into your home directory **$HOME**
 4. Extract the installation file contents, which is typically done by running: ```tar zxvf ImageGearJavaPDF_1.0_Linux64.tar.gz```
-5. In the **$HOME/Accusoft/ImageGearJavaPDF1-64** folder after extracting, locate the **install.sh** script and run it as root user: ```sudo ./install.sh```
+5. In the **$HOME/Accusoft/ImageGearJavaPDF1-64** folder after extracting, locate the **install.sh** script and run it as **root** user: ```sudo ./install.sh```
 6. The script will search for and modify the current user's shell profile files to add some environment variables and attempt to run the Accusoft License Manager
 7. Finally, log out and log in again to activate the environment variables
 

@@ -12,7 +12,7 @@ Before installing **ImageGear Java PDF**, make sure your computer meets the foll
 ## HOW TO INSTALL
 
 1. Use the following commands to double check you have the appropriate versions of the system requirements:
-  1. For Standard C Cibrary (**libc**), use the following: ```ldd --version```
+  1. For Standard C Library (**libc**), use the following: ```ldd --version```
   2. For Java Development Kit (**JDK**), use: ```java -version```
   3. For **Maven**, use: ```mvn -version```
 2. Download the installation file **ImageGearJavaPDF_1.0_Linux64.tar.gz**

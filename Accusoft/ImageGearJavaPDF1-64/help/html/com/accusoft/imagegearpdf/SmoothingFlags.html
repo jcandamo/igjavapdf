@@ -1,0 +1,56 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<SCRIPT>
+signatures = new Array();
+
+signatures["EnhanceLines"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~EnhanceLines.html";
+signatures["NoSmoothing"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~NoSmoothing.html";
+signatures["SmoothImage"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothImage.html";
+signatures["SmoothLineArt"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothLineArt.html";
+signatures["SmoothText"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothText.html";
+
+
+
+
+bookmarkIndex = location.href.indexOf("#");
+if (bookmarkIndex != -1) {
+    var signature = location.href.substring(bookmarkIndex+1);
+	if (signatures[signature] != null) {
+		alert(signatures[signature]);
+		location.href = signatures[signature];			
+	}
+}
+</SCRIPT>
+
+<!-- ======== START OF CLASS DATA ======== -->
+<DL>
+</DL>
+
+<P>This class provides SmoothingFlags values, a bitwise OR can be used to combine the possible values.</P><P><A HREF="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags.html">Full documentation</P>
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<P><a NAME="EnhanceLines"><!-- --></a></P><P>8 - Enhance thin lines.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~EnhanceLines.html">Full documentation</P>
+<P><a NAME="NoSmoothing"><!-- --></a></P><P>0 - No smoothing.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~NoSmoothing.html">Full documentation</P>
+<P><a NAME="SmoothImage"><!-- --></a></P><P>4 - Draw smooth image.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothImage.html">Full documentation</P>
+<P><a NAME="SmoothLineArt"><!-- --></a></P><P>2 - Draw smooth line art.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothLineArt.html">Full documentation</P>
+<P><a NAME="SmoothText"><!-- --></a></P><P>1 - Draw smooth text.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothText.html">Full documentation</P>
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</BODY>
+</HTML>

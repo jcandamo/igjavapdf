@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<SCRIPT>
+signatures = new Array();
+
+
+signatures["RenderOptions()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~_ctor().html";
+
+
+signatures["delete()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~delete.html";
+signatures["getResolution()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~getResolution.html";
+signatures["getSmoothingFlags()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~getSmoothingFlags.html";
+signatures["setResolution(double)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~setResolution.html";
+signatures["setSmoothingFlags(int)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~setSmoothingFlags.html";
+
+
+bookmarkIndex = location.href.indexOf("#");
+if (bookmarkIndex != -1) {
+    var signature = location.href.substring(bookmarkIndex+1);
+	if (signatures[signature] != null) {
+		alert(signatures[signature]);
+		location.href = signatures[signature];			
+	}
+}
+</SCRIPT>
+
+<!-- ======== START OF CLASS DATA ======== -->
+<DL>
+</DL>
+
+<P>This class provides options for rendering a PDF Page. The following default values are used in this class: Default resolution is 150 DPI. Default smoothing settings flag is <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothText.html">SmoothingFlags.SmoothText</A>.</P><P><A HREF="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions.html">Full documentation</P>
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<!-- ============ FIELD DETAIL =========== -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<P><a NAME="RenderOptions()"><!-- --></a></P><P>This constructor creates a new instance of the RenderOptions class.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~_ctor().html">Full documentation</P>
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<P><a NAME="delete()"><!-- --></a></P><DIV style="WIDTH: 100%">
+<TABLE class=hs-box>
+<TBODY>
+<TR>
+<TD class=hs-box-icon vAlign=top><IMG src="images/hs-note.gif"></TD>
+<TD class=hs-box-content vAlign=top>You don't need to call this method under normal circumstances. It is only necessary if you want to release the resource prior to garbage collection occurring. Once the object is deleted, it is no longer safe to access its members.</TD></TR></TBODY></TABLE></DIV><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~delete.html">Full documentation</P>
+<P><a NAME="getResolution()"><!-- --></a></P><P>This specifies the resolution in dots per inch for page rasterization. The higher this value, the higher-quality raster image will be got after rasterization. Default value is 150 DPI.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~getResolution.html">Full documentation</P>
+<P><a NAME="getSmoothingFlags()"><!-- --></a></P><P>This specifies the smoothing settings for page rasterization. See the <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags.html">SmoothingFlags</A> for details. Default value is <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothText.html">SmoothingFlags.SmoothText</A>.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~getSmoothingFlags.html">Full documentation</P>
+<P><a NAME="setResolution(double)"><!-- --></a></P><P>This specifies the resolution in dots per inch for page rasterization. The higher this value, the higher-quality raster image will be got after rasterization. Default value is 150 DPI.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~setResolution.html">Full documentation</P>
+<P><a NAME="setSmoothingFlags(int)"><!-- --></a></P><P>This specifies the smoothing settings for page rasterization. See the <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags.html">SmoothingFlags</A> for details. Default value is <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.SmoothingFlags~SmoothText.html">SmoothingFlags.SmoothText</A>.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.RenderOptions~setSmoothingFlags.html">Full documentation</P>
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</BODY>
+</HTML>

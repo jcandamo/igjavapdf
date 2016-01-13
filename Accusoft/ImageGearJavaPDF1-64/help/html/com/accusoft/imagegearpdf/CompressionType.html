@@ -1,0 +1,62 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<SCRIPT>
+signatures = new Array();
+
+signatures["CCITTCompression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~CCITTCompression.html";
+signatures["DeflateCompression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~DeflateCompression.html";
+signatures["Jbig2Compression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~Jbig2Compression.html";
+signatures["Jpeg2000Compression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~Jpeg2000Compression.html";
+signatures["JpegCompression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~JpegCompression.html";
+signatures["NoneCompression"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~NoneCompression.html";
+
+
+signatures["CompressionType()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~_ctor.html";
+
+
+
+bookmarkIndex = location.href.indexOf("#");
+if (bookmarkIndex != -1) {
+    var signature = location.href.substring(bookmarkIndex+1);
+	if (signatures[signature] != null) {
+		alert(signatures[signature]);
+		location.href = signatures[signature];			
+	}
+}
+</SCRIPT>
+
+<!-- ======== START OF CLASS DATA ======== -->
+<DL>
+</DL>
+
+<P>This class provides CompressionType values. This is a compression to apply to the image when adding it to the PDF page.</P><P><A HREF="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType.html">Full documentation</P>
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<P><a NAME="CCITTCompression"><!-- --></a></P><P>1 - apply CCIIT compression.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~CCITTCompression.html">Full documentation</P>
+<P><a NAME="DeflateCompression"><!-- --></a></P><P>2 - apply Deflate compression.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~DeflateCompression.html">Full documentation</P>
+<P><a NAME="Jbig2Compression"><!-- --></a></P><P>5 - apply JBIG2 compression.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~Jbig2Compression.html">Full documentation</P>
+<P><a NAME="Jpeg2000Compression"><!-- --></a></P><P>4 - apply JPEG2000 compression.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~Jpeg2000Compression.html">Full documentation</P>
+<P><a NAME="JpegCompression"><!-- --></a></P><P>3 - apply JPEG compression.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~JpegCompression.html">Full documentation</P>
+<P><a NAME="NoneCompression"><!-- --></a></P><P>0 - no compression to apply.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~NoneCompression.html">Full documentation</P>
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<P><a NAME="CompressionType()"><!-- --></a></P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.CompressionType~_ctor.html">Full documentation</P>
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</BODY>
+</HTML>

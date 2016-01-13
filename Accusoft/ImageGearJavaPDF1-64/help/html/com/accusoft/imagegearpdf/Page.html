@@ -1,0 +1,61 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<SCRIPT>
+signatures = new Array();
+
+
+
+signatures["addImage(byte[], com.accusoft.imagegearpdf.AddImageOptions)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~addImage(byte[],AddImageOptions).html";
+signatures["addImage(java.lang.String, com.accusoft.imagegearpdf.AddImageOptions)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~addImage(String,AddImageOptions).html";
+signatures["close()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~close.html";
+signatures["delete()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~delete.html";
+signatures["render(com.accusoft.imagegearpdf.RenderOptions)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~render.html";
+
+
+bookmarkIndex = location.href.indexOf("#");
+if (bookmarkIndex != -1) {
+    var signature = location.href.substring(bookmarkIndex+1);
+	if (signatures[signature] != null) {
+		alert(signatures[signature]);
+		location.href = signatures[signature];			
+	}
+}
+</SCRIPT>
+
+<!-- ======== START OF CLASS DATA ======== -->
+<DL>
+</DL>
+
+<P>This class provides methods to work with a PDF page.</P><P><A HREF="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page.html">Full documentation</P>
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<!-- ============ FIELD DETAIL =========== -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<P><a NAME="addImage(byte[], com.accusoft.imagegearpdf.AddImageOptions)"><!-- --></a></P><P>This method adds an image from memory to the page.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~addImage(byte[],AddImageOptions).html">Full documentation</P>
+<P><a NAME="addImage(java.lang.String, com.accusoft.imagegearpdf.AddImageOptions)"><!-- --></a></P><P>This method adds an image from specified file to the page.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~addImage(String,AddImageOptions).html">Full documentation</P>
+<P><a NAME="close()"><!-- --></a></P><P>This method closes the Page currently open.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~close.html">Full documentation</P>
+<P><a NAME="delete()"><!-- --></a></P><DIV style="WIDTH: 100%">
+<TABLE class=hs-box>
+<TBODY>
+<TR>
+<TD class=hs-box-icon vAlign=top><IMG src="images/hs-note.gif"></TD>
+<TD class=hs-box-content vAlign=top>You don't need to call this method under normal circumstances. It is only necessary if you want to release the resource prior to garbage collection occurring. Once the object is deleted, it is no longer safe to access its members.</TD></TR></TBODY></TABLE></DIV><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~delete.html">Full documentation</P>
+<P><a NAME="render(com.accusoft.imagegearpdf.RenderOptions)"><!-- --></a></P><P>This method renders the contents of the Page to an uncompressed image.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~render.html">Full documentation</P>
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</BODY>
+</HTML>

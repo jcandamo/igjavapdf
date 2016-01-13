@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=3" value="<meta name=""Microsoft.Help.SelfBranded"" content=""true"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="ItemTitle" format="<title>%%ItemTitle%%</title>" --><title>Saving a PDF Document</title><!--DXMETADATA end-->
+    <!--DXMETADATA start type="ItemTitle" format="<meta name=""Title"" content=""%%ItemTitleNoQuotes%%""/>" --><meta name="Title" content="Saving a PDF Document"/><!--DXMETADATA end-->    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    <!--DXMETADATA start type="Literal" condition="communityenabled" value="<link rel=""stylesheet"" type=""text/css"" href=""stylesheets/community.css"" />" --><!--DXMETADATA end-->
+	<!--DXMETADATA start type="Literal" condition="communityenabled" value="<script src=""script/community.js""></script>" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="Synopsis" StripHtmlTags="True" MaxLength="250" format="<meta name=""Description"" content=""%%Synopsis%%"" />"--><meta name="Description" content="To save a loaded PDF file to a different PDF file use the saveDocument method of the Document class:" /><!--DXMETADATA end-->
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/topics.2012.css" data-mshv2-stylesheet="/stylesheets/topics.2012.mshv2.css" data-mshv1-stylesheet="/stylesheets/topics.2012.mshv1.css" />
+    <script src="script/topics.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/topics.2012.js" type="text/javascript"></script>
+    
+    <!--DXMETADATA start type="TopicId" format="<meta name=""Microsoft.Help.Id"" content=""%%TopicId%%""/>" --><meta name="Microsoft.Help.Id" content="aa5019e4-3643-4b8e-b09a-f4f28fe2aef8"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocParentId" format="<meta name=""Microsoft.Help.TocParent"" content=""%%TocParentId%%""/>" --><meta name="Microsoft.Help.TocParent" content="8a7ad05f-6e65-431c-b1e2-dfeacdfeab3b"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocOrdinal" format="<meta name=""Microsoft.Help.TocOrder"" content=""%%TocOrdinal%%""/>" --><meta name="Microsoft.Help.TocOrder" content="6"/><!--DXMETADATA end-->
+    <meta name="Microsoft.Help.F1" content=""/>
+    <meta name="Microsoft.Help.ContentType" content="Concepts" />
+    <!--DXMETADATA start type="MshvKeywords" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvMetaTags" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.Locale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.TopicLocale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="Stylesheets" --><link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Scripts" --><script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="DesignTime"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="IsNew" format="<script type=""text/javascript"">isNew = true;</script>" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_PROPERTIES" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="CustomHeadContent" --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-160144-38']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--DXMETADATA end-->
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        <!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_RATING%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="LogoImage" --><img class="logoimage" src="images/AccusoftLogoColor2015.png" border="0"></img><!--DXMETADATA end-->
+            <div id="ProjectTitle"><!--DXMETADATA start type="ProjectTitle" -->ImageGear Java PDF<!--DXMETADATA end--></div>
+        <div id="PageTitle"><div id="PageTitleText"><!--DXMETADATA start type="ItemTitle" -->Saving a PDF Document<!--DXMETADATA end--></div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                <label id="ExpandAllLabel" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+            </span><!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_DROPDOWN%%" --><!--DXMETADATA end -->
+    </div>
+    <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><div class="BreadcrumbsContainer"><table><tr><td>
+<a href="ImageGear Java PDF.html">ImageGear Java PDF</a>
+ > <a href="Using ImageGear Java PDF.html">Using ImageGear Java PDF</a>
+ > Saving a PDF Document</td></tr></table></div><!--DXMETADATA end -->
+    
+    
+    <div id="BodyContent">
+        <!--DXMETADATA start type="TopicSection" name="BodyText"--><P>To save a loaded PDF file to a different PDF file use the&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document~saveDocument.html">saveDocument</A> method of the&nbsp;<A href="ImageGearJavaPDF~com.accusoft.ImageGearPDF.Document.html">Document</A> class:</P>
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>void saveDocument(string fileName, SaveOptions options);</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>After a PDF file is loaded, you can save it or save to a different PDF file.</P>
+<OL>
+<LI>Use the&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document~openDocument.html">openDocument</A> method to load a PDF file. 
+<LI>Use the&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document~saveDocument.html">saveDocument</A>&nbsp;method to save the PDF file. The&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document~saveDocument.html">saveDocument</A>&nbsp;method has two parameters: 
+<UL>
+<LI>The <STRONG>fileName</STRONG> parameter represents an output PDF filename. 
+<LI>The <STRONG>options</STRONG> parameter specifies control over some aspects of how the document is saved. </LI></UL></LI></OL>
+<P>The following is an illustration of how to load and save a PDF file to another PDF file:</P>
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>import com.accusoft.imagegearpdf.*;
+&nbsp;
+PDF pdf = new PDF();
+&nbsp;
+// set license
+pdf.setSolutionName("Accusoft Corporation");
+pdf.setSolutionKey(0x12345678,0x9ABCDEF0,0x87654321,0x0FEDCBA9);
+pdf.setOEMLicenseKey("2.0.WE...ff");
+&nbsp;
+pdf.initialize();
+&nbsp;
+Document doc = new Document();
+doc.openDocument("sample.pdf");
+&nbsp;
+SaveOptions options = new SaveOptions();
+options.setLinearized(true);
+doc.saveDocument("output.pdf", options);
+&nbsp;
+doc.closeDocument();
+pdf.terminate();</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>The&nbsp;<A href="ImageGearJavaPDF~com.accusoft.ImageGearPDF.SaveOptions.html">SaveOptions</A> class contains the following methods:</P>
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>boolean getLinearized();
+void setLinearized(boolean newValue);</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>They are used to get and set the flag indicating whether to write the file <EM><STRONG>linearized</STRONG></EM> for page serving over remote connections (false by default).</P>
+<H3><A name=linearized>About Linearized PDF Files</A></H3>
+<P>A linearized PDF file makes viewing a PDF over the web faster. It is structured to allow the first page of the PDF file to display in the browser before the entire file is downloaded from the web server. As a result, linear PDF documents open almost instantly. A linearized PDF file contains information that allows a byte-streaming server to download the PDF file one page at a time. If byte-streaming is disabled on the server or if the PDF file is not linearized, the entire PDF file must be downloaded before it can be viewed.</P><!--DXMETADATA end-->
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORISED_LINKS" namespace="linkcategory" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""%%phrase:name=SeeAlso%%%%designlist:tagidentifier=seealso,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><!--DXMETADATA end-->
+        
+    </div>
+    <div id="FooterContent">
+        <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_FOOTER" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr style=""height: 1px"" /><p>%%variable%%</p>" --><p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>&copy;2016. <a href="http://www.accusoft.com" target="_blank">Accusoft Corporation</a>. All Rights Reserved.</p><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><a href="https://www.accusoft.com/help-files-feedback/" target="_blank">Send Feedback</a><!--DXMETADATA end-->
+    </div>
+    
+</body>
+</html>

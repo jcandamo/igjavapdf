@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--DXMETADATA start type="MetaCharset" --><META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"><!--DXMETADATA end-->
+    <meta http-equiv="X-UA-Compatible" value="IE=9" />
+
+    <!--DXMETADATA start type="IsTemplateFileFeatureEnabled" name="Responsive" format="<meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Literal" condition="helpversion:value=3" value="<meta name=""Microsoft.Help.SelfBranded"" content=""true"" />" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="ItemTitle" format="<title>%%ItemTitle%%</title>" --><title>Tutorial: Create Your First Project</title><!--DXMETADATA end-->
+    <!--DXMETADATA start type="ItemTitle" format="<meta name=""Title"" content=""%%ItemTitleNoQuotes%%""/>" --><meta name="Title" content="Tutorial: Create Your First Project"/><!--DXMETADATA end-->    
+    
+    <script src="script/jquery-1.7.2.min.js" type="text/javascript" id="mshs_support_script"></script>
+    <script src="script/jquery-ui-1.8.18.custom.min.js" type="text/javascript"></script>
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery-ui-1.8.18.custom.css" />
+    <link rel="styleSheet" type="text/css" href="stylesheets/jquery.qtip.css" />
+	
+    <!--DXMETADATA start type="Literal" condition="communityenabled" value="<link rel=""stylesheet"" type=""text/css"" href=""stylesheets/community.css"" />" --><!--DXMETADATA end-->
+	<!--DXMETADATA start type="Literal" condition="communityenabled" value="<script src=""script/community.js""></script>" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="Synopsis" StripHtmlTags="True" MaxLength="250" format="<meta name=""Description"" content=""%%Synopsis%%"" />"--><meta name="Description" content="In this tutorial, you will learn how to configure a Java project for a console application. You will also learn how to open a PDF and save as a new file." /><!--DXMETADATA end-->
+    
+    <link rel="styleSheet" type="text/css" href="stylesheets/topics.2012.css" data-mshv2-stylesheet="/stylesheets/topics.2012.mshv2.css" data-mshv1-stylesheet="/stylesheets/topics.2012.mshv1.css" />
+    <script src="script/topics.jqueryplugins.2012.min.js" type="text/javascript"></script>
+    <script src="script/topics.2012.js" type="text/javascript"></script>
+    
+    <!--DXMETADATA start type="TopicId" format="<meta name=""Microsoft.Help.Id"" content=""%%TopicId%%""/>" --><meta name="Microsoft.Help.Id" content="2bcce9f4-58b9-406a-aa38-2ec79cc673f5"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocParentId" format="<meta name=""Microsoft.Help.TocParent"" content=""%%TocParentId%%""/>" --><meta name="Microsoft.Help.TocParent" content="35a79d53-528d-4347-a721-eb1df44bdfa3"/><!--DXMETADATA end-->
+    <!--DXMETADATA start type="TocOrdinal" format="<meta name=""Microsoft.Help.TocOrder"" content=""%%TocOrdinal%%""/>" --><meta name="Microsoft.Help.TocOrder" content="3"/><!--DXMETADATA end-->
+    <meta name="Microsoft.Help.F1" content=""/>
+    <meta name="Microsoft.Help.ContentType" content="Concepts" />
+    <!--DXMETADATA start type="MshvKeywords" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="MshvMetaTags" condition="helpversion:value=3" --><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.Locale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Help3CatalogLocale" condition="helpversion:value=3" format="<meta name=""Microsoft.Help.TopicLocale"" content=""%%Help3CatalogLocale%%"" />"--><!--DXMETADATA end-->
+    
+    <!--DXMETADATA start type="Stylesheets" --><link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-common.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-expand.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-expandcollapse.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/slimbox2.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-jquery-slimbox.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/hs-boxes.css"></link>
+    <link rel="styleSheet" type="text/css" href="stylesheets/customstyles.css"></link><!--DXMETADATA end-->
+    <!--DXMETADATA start type="Scripts" --><script src="script/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="script/hs-jquery-common.js" type="text/javascript"></script>
+    <script src="script/jquery-expand.js" type="text/javascript"></script>
+    <script src="script/hs-expandcollapse.js" type="text/javascript"></script>
+    <script src="script/slimbox2.js" type="text/javascript"></script>
+    <script src="script/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="script/swfobject.js" type="text/javascript"></script><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="DesignTime"--><!--DXMETADATA end-->
+    <!--DXMETADATA start type="IsNew" format="<script type=""text/javascript"">isNew = true;</script>" --><!--DXMETADATA end-->
+
+    <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_PROPERTIES" --><!--DXMETADATA end -->
+
+    <!--DXMETADATA start type="CustomHeadContent" --><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-160144-38']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--DXMETADATA end-->
+</head>
+
+<body>
+    <div id="BeforeHeaderContent">
+        
+    </div>
+    <div id="HeaderContent">
+        <!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_RATING%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="LogoImage" --><img class="logoimage" src="images/AccusoftLogoColor2015.png" border="0"></img><!--DXMETADATA end-->
+            <div id="ProjectTitle"><!--DXMETADATA start type="ProjectTitle" -->ImageGear Java PDF<!--DXMETADATA end--></div>
+        <div id="PageTitle"><div id="PageTitleText"><!--DXMETADATA start type="ItemTitle" -->Tutorial: Create Your First Project<!--DXMETADATA end--></div></div>
+    </div>
+    <div id="AfterHeaderContent">
+        <!-- Spacing --> <span id="ToggleAllSectionsLink" class="FunctionLink">
+                <label id="CollapseAllLabel"><!--DXMETADATA start type="Phrase" name="COLLAPSE_ALL" -->Collapse All<!--DXMETADATA end--></label>
+                <label id="ExpandAllLabel" style="display: none;"><!--DXMETADATA start type="Phrase" name="EXPAND_ALL" -->Expand All<!--DXMETADATA end--></label>
+            </span><!--DXMETADATA start type="Literal" condition="communityenabled" value="%%scrap:name=_COMMUNITY_DROPDOWN%%" --><!--DXMETADATA end -->
+    </div>
+    <!--DXMETADATA start type="Breadcrumbs" scrap="_BREADCRUMBS" --><div class="BreadcrumbsContainer"><table><tr><td>
+<a href="ImageGear Java PDF.html">ImageGear Java PDF</a>
+ > <a href="Getting Started.html">Getting Started</a>
+ > Tutorial: Create Your First Project</td></tr></table></div><!--DXMETADATA end -->
+    
+    
+    <div id="BodyContent">
+        <!--DXMETADATA start type="TopicSection" name="BodyText"--><P>In this tutorial, you will learn how to configure a Java project for a console application. You will also learn how to open a PDF and save as a new file.</P>
+<OL>
+<LI>Make sure that you have installed&nbsp;JDK and ImageGear Java PDF properly. See&nbsp;<A href="System Requirements.html" data-auto-update-caption="true">System Requirements</A>&nbsp;and&nbsp;<A href="Installing ImageGear Java PDF.html" data-auto-update-caption="true">Installation</A>. You will need to copy a <STRONG>sample.pdf</STRONG> file inside the directory where you will be creating the tutorial sample. 
+<LI>Create a new Java file, and name it (e.g., <STRONG>MyFirstIGJavaPDFProject.java</STRONG>). Insert the following code there: 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>import com.accusoft.imagegearpdf.*;
+public class MyFirstIGJavaPDFProject
+{
+   private PDF pdf;
+   private Document document;
+   static
+   {
+       System.loadLibrary("IgPdf");
+   }
+   // Application entry point.
+   public static void main(String[] args)
+   {
+       boolean linearized = false;
+       String inputPath = "sample.pdf";
+       String outputPath = "sample_output.pdf";;
+       MyFirstIGJavaPDFProject app = new MyFirstIGJavaPDFProject();
+       app.loadAndSave(inputPath, outputPath, linearized);
+   }
+   // Load and save the PDF file.
+   private void loadAndSave(String inputPath, String outputPath, boolean linearized)
+   {
+       try
+       {
+           this.initializePdf();
+           this.openPdf(inputPath);
+           this.savePdf(outputPath, linearized);
+       }
+       catch (Throwable ex)
+       {
+           System.err.println("Exception: " + ex.toString());
+       }
+       finally
+       {
+           this.terminatePdf();
+       }
+   }
+   // Initialize the PDF session.
+   private void initializePdf()
+   {
+       this.pdf = new PDF();
+       this.pdf.initialize();
+   }
+   // Open input PDF document.
+   private void openPdf(String inputPath)
+   {
+       this.document = new Document();
+       this.document.openDocument(inputPath);
+   }
+   // Save PDF document to the output path.
+   private void savePdf(String outputPath, boolean linearized)
+   {
+       SaveOptions saveOptions = new SaveOptions();
+       // Set LINEARIZED attribute as provided by the user.
+       saveOptions.setLinearized(linearized);
+       this.document.saveDocument(outputPath, saveOptions);
+   }
+   // Close the PDF document and terminate the PDF session.
+   private void terminatePdf()
+   {
+       if (this.document != null)
+       {
+           this.document.closeDocument();
+           this.document = null;
+       }
+       if (this.pdf != null)
+       {
+           this.pdf.terminate();
+           this.pdf = null;
+       }
+   }
+}
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<LI>Now, let’s go over some of the important areas in the sample code with more detail. 
+<P>The&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf_namespace.html">com.accusoft.imagegearpdf</A> namespace:</P>
+<UL>
+<LI>Allows you to load and save native PDF documents 
+<LI>Allows rasterization of PDF pages by converting them to bitmaps and adding raster pages to a PDF document 
+<LI>Provides multi-page read and write support for the entire document </LI></UL>
+<P>To enable the&nbsp;<A href="ImageGearJavaPDF~com.accusoft.imagegearpdf_namespace.html">com.accusoft.imagegearpdf</A>&nbsp;namespace in your project, specify the following directive:</P>
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>import com.accusoft.imagegearpdf.*;
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>To initialize and support processing of PDF files we need:</P>
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>// Initialize the PDF session.
+private void initializePdf()
+{
+   this.pdf = new PDF();
+   this.pdf.initialize();
+}
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<LI>There is one main object that is used in this sample code: The Document that holds the entire loaded document. 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>private Document document;
+…
+this.document = new Document();
+this.document.openDocument(inputPath);
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<LI>You can save the loaded document using: 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>SaveOptions saveOptions = new SaveOptions();
+// Set LINEARIZED attribute as provided by the user.
+saveOptions.setLinearized(linearized);
+this.document.saveDocument(outputPath, saveOptions);
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>See <A href="Saving.html#linearized">About Linearized PDF Files</A> for more information.</P>
+<LI>Now, you can build and run your sample. Please make sure that you have a PDF file named <STRONG>sample.pdf</STRONG> in the same directory where your sample source resided, or change the <STRONG>inputPath</STRONG> in the sample code so that it points to any existing PDF file. 
+<LI>Now, open the&nbsp;terminal in the directory containing your source file and run the following commands: 
+<OL>
+<LI>Compile 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>javac -classpath $HOME/Accusoft/ImageGearJavaPDF1-64/java/IgPdf.jar MyFirstIGJavaPDFProject.java
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>After running this command, you should see a file named <STRONG>MyFirstIGJavaPDFProject.class</STRONG> in your current directory.</P>
+<LI>Build 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>jar cfe MyFirstIGJavaPDFProject.jar MyFirstIGJavaPDFProject MyFirstIGJavaPDFProject.class
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<P>After running this command, you should see a file named <STRONG>MyFirstIGJavaPDFProject.jar</STRONG> in your current directory.</P>
+<LI>Set the environment variable (you only have to do this one time) 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>export LD_PRELOAD=$HOME/Accusoft/ImageGearJavaPDF1-64/lib/libIGCORE18.so
+</PRE></TD></TR></TBODY></TABLE></DIV>
+<LI>run 
+<DIV class=FilteredContent&nbsp; data-title="&nbsp;" data-itemid="&nbsp;">
+<TABLE class=SyntaxTable>
+<TBODY>
+<TR>
+<TH>&nbsp;</TH>
+<TH>
+<DIV class=CopyCodeWrapper><SPAN class=CopyCode>Copy Code</SPAN> </DIV></TH></TR>
+<TR>
+<TD colSpan=2><PRE>java -classpath $HOME/Accusoft/ImageGearJavaPDF1-64/java/IgPdf.jar:. MyFirstIGJavaPDFProject
+</PRE></TD></TR></TBODY></TABLE></DIV></LI></OL></LI></OL>
+<P>After running your sample, you should see a new PDF file, named <STRONG>sample_output.pdf</STRONG>, in your current directory.</P><!--DXMETADATA end-->
+            <a name="seealsobookmark"></a>
+            <!--DXMETADATA start type="FilteredItemList" scrap="CATEGORISED_LINKS" namespace="linkcategory" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=seealso,caption=""%%phrase:name=SeeAlso%%%%designlist:tagidentifier=seealso,itemtype=See Also%%""%%%%filtereditemlist%%</div>"--><!--DXMETADATA end-->
+        
+    </div>
+    <div id="FooterContent">
+        <!--DXMETADATA start type="Scrap" condition="communityenabled" name="_COMMUNITY_FOOTER" --><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="CopyrightNotice" format="<p>&nbsp;</p><p>&nbsp;</p><hr style=""height: 1px"" /><p>%%variable%%</p>" --><p>&nbsp;</p><p>&nbsp;</p><hr style="height: 1px" /><p>&copy;2016. <a href="http://www.accusoft.com" target="_blank">Accusoft Corporation</a>. All Rights Reserved.</p><!--DXMETADATA end -->
+<!--DXMETADATA start type="Variable" name="FeedbackLink" format="" --><a href="https://www.accusoft.com/help-files-feedback/" target="_blank">Send Feedback</a><!--DXMETADATA end-->
+    </div>
+    
+</body>
+</html>

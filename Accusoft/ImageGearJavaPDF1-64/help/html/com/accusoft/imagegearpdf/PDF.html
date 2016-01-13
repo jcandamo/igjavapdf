@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD>
+</HEAD>
+
+<BODY>
+
+<SCRIPT>
+signatures = new Array();
+
+
+
+signatures["close()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~close.html";
+signatures["createDocument()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~createDocument.html";
+signatures["delete()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~delete.html";
+signatures["getInstance()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~getInstance.html";
+signatures["initialize()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~initialize.html";
+signatures["setOEMLicenseKey(java.lang.String)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setOEMLicenseKey.html";
+signatures["setPDFResources(java.lang.String)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setPDFResources.html";
+signatures["setSolutionKey(long, long, long, long)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setSolutionKey.html";
+signatures["setSolutionName(java.lang.String)"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setSolutionName.html";
+signatures["terminate()"] = "../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~terminate.html";
+
+
+bookmarkIndex = location.href.indexOf("#");
+if (bookmarkIndex != -1) {
+    var signature = location.href.substring(bookmarkIndex+1);
+	if (signatures[signature] != null) {
+		alert(signatures[signature]);
+		location.href = signatures[signature];			
+	}
+}
+</SCRIPT>
+
+<!-- ======== START OF CLASS DATA ======== -->
+<DL>
+</DL>
+
+<P>This class provides methods to intialize and terminate the PDF library. Use <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~getInstance.html">getInstance</A> method to retrieve the instance of this class.</P><P><A HREF="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF.html">Full documentation</P>
+
+<!-- =========== FIELD SUMMARY =========== -->
+
+<!-- ============ FIELD DETAIL =========== -->
+
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<P><a NAME="close()"><!-- --></a></P><P>This method calls <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~terminate.html">terminate</A> method.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~close.html">Full documentation</P>
+<P><a NAME="createDocument()"><!-- --></a></P><P>This method creates a new <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document.html">Document</A> class instance.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~createDocument.html">Full documentation</P>
+<P><a NAME="delete()"><!-- --></a></P><DIV style="WIDTH: 100%">
+<TABLE class=hs-box>
+<TBODY>
+<TR>
+<TD class=hs-box-icon vAlign=top><IMG src="images/hs-note.gif"></TD>
+<TD class=hs-box-content vAlign=top>You don't need to call this method under normal circumstances. It is only necessary if you want to release the resource prior to garbage collection occurring. Once the object is deleted, it is no longer safe to access its members.</TD></TR></TBODY></TABLE></DIV><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~delete.html">Full documentation</P>
+<P><a NAME="getInstance()"><!-- --></a></P><P>This method returns an instance of the PDF class.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~getInstance.html">Full documentation</P>
+<P><a NAME="initialize()"><!-- --></a></P><P>This method initializes the PDF library, this initialization is required in order to use the library. Note: <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setPDFResources.html">setPDFResources</A> should be called first.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~initialize.html">Full documentation</P>
+<P><a NAME="setOEMLicenseKey(java.lang.String)"><!-- --></a></P><P>For use only by customers who choose to use Manually Reported Runtime licensing.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setOEMLicenseKey.html">Full documentation</P>
+<P><a NAME="setPDFResources(java.lang.String)"><!-- --></a></P><P>This method specifies the path to the font resources used during initialization of the library.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setPDFResources.html">Full documentation</P>
+<P><a NAME="setSolutionKey(long, long, long, long)"><!-- --></a></P><P>This method specifies a set of four numbers assigned when the licenses are purchased for runtime deployment.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setSolutionKey.html">Full documentation</P>
+<P><a NAME="setSolutionName(java.lang.String)"><!-- --></a></P><P>This method specifies a name specified by Accusoft to the licenses purchased for runtime deployment.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~setSolutionName.html">Full documentation</P>
+<P><a NAME="terminate()"><!-- --></a></P><P>This method terminates the PDF library, this termination is required in order to close the library. Note: It is recommended that all document and page resources be freed explicitly by the user before terminating the PDF library. Therefore <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Page~close.html">Page.close</A> and <A href="ImageGearJavaPDF~com.accusoft.imagegearpdf.Document~close.html">Document.close</A> methods should be called first on all open instances.</P><P><a href="../../../ImageGearJavaPDF~com.accusoft.imagegearpdf.PDF~terminate.html">Full documentation</P>
+
+
+<!-- ========= END OF CLASS DATA ========= -->
+
+</BODY>
+</HTML>

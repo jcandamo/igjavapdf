@@ -13,11 +13,13 @@ Before installing **ImageGear Java PDF**, make sure your computer meets the foll
 1. Use the following commands to double check you have the appropriate versions of the system requirements:
   1. For Java Development Kit (**JDK**), use: ```java -version```
   2. For **Maven**, use: ```mvn -version```
-2. Download the **Accusoft/ImageGearJavaPDF1-64/** folder available here in GitHub
-3. Move the folder into your home directory **$HOME**, i.e. **$HOME/Accusoft/ImageGearJavaPDF1-64**
-4. In the **$HOME/Accusoft/ImageGearJavaPDF1-64** folder, locate the **install.sh** script and run it as **root** user: ```sudo ./install.sh```
-5. The script will search for and modify the current user's shell profile files to add some environment variables and attempt to run the Accusoft License Manager
-6. Finally, log out and log in again to activate the environment variables
+2. Download the installation file **ImageGearJavaPDF_1.0_Linux64.tar.gz**
+3. Move the installation file **ImageGearJavaPDF_1.0_Linux64.tar.gz** into your home directory **$HOME**
+4. Extract the installation file contents, which is typically done by running: ```tar zxvf ImageGearJavaPDF_1.0_Linux64.tar.gz```
+5. Move the folder into your home directory **$HOME**, i.e. **$HOME/Accusoft/ImageGearJavaPDF1-64**
+6. In the **$HOME/Accusoft/ImageGearJavaPDF1-64** folder, locate the **install.sh** script and run it as **root** user: ```sudo ./install.sh```
+7. The script will search for and modify the current user's shell profile files to add some environment variables and attempt to run the Accusoft License Manager
+8. Finally, log out and log in again to activate the environment variables
 
 ## WHERE TO START | SAMPLES AND USER'S GUIDE
  
